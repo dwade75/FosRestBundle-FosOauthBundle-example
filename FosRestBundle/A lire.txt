@@ -1,0 +1,4 @@
+Réalisé avec le tutoriel zeste de savoir
+ -https://zestedesavoir.com/tutoriels/1280/creez-une-api-rest-avec-symfony-3/
+
+ Toutes les methodes fonctionne correctement et avec la bonne maniere 

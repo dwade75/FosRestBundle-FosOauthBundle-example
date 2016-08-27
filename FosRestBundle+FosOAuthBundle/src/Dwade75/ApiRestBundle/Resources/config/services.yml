@@ -1,0 +1,4 @@
+services:
+#    dwade75_api_rest.example:
+#        class: Dwade75\ApiRestBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

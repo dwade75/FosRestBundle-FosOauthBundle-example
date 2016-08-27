@@ -1,0 +1,26 @@
+dwade75_api_rest:
+    resource: "@Dwade75ApiRestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+places:
+    type:     rest
+    resource: Dwade75\ApiRestBundle\Controller\PlaceController
+    prefix: /api
+
+users:
+    type:     rest
+    resource: Dwade75\ApiRestBundle\Controller\UserController
+    prefix: /api
+
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
+
+fos_oauth_server_authorize:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

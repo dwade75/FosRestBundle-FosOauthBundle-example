@@ -1,0 +1,15 @@
+dwade75_api_rest:
+    resource: "@Dwade75ApiRestBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+places:
+    type:     rest
+    resource: Dwade75\ApiRestBundle\Controller\PlaceController
+
+users:
+    type:     rest
+    resource: Dwade75\ApiRestBundle\Controller\UserController

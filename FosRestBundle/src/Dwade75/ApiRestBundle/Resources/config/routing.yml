@@ -1,0 +1,3 @@
+dwade75_api_rest_homepage:
+    path:     /
+    defaults: { _controller: Dwade75ApiRestBundle:Default:index }

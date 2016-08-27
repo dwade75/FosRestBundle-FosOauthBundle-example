@@ -1,0 +1,7 @@
+#dwade75_api_rest_homepage:
+#    path:     /
+#    defaults: { _controller: Dwade75ApiRestBundle:Default:index }
+
+dwade75_admin_homepage:
+    path:     /admin
+    defaults: { _controller: Dwade75ApiRestBundle:Admin:admin }
